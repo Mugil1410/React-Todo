@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 body {
@@ -57,6 +57,18 @@ footer {
   display: grid;
   align-items: center;
   place-content: center;
+}
+
+footer > p{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+footer > table > th {
+  font-size: 16px;
+  padding-right:7px;
 }
 
 ul {

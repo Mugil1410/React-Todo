@@ -3,14 +3,15 @@ import '../Components/Content.css';
 import ItemList from './ItemList';
 
 
-const Content = ({items,handleCheck,handleDelete}) => {
+const Content = ({items, handleEdit,handleCheck,handleDelete}) => {
     
   return (
     <main className="flex-shrink-0">
       <div className="container">
-      {(items.length)?(
+      {(items.length) ? (
 
         <ItemList  items={items}
+        handleEdit={handleEdit}
         handleCheck={handleCheck}
         handleDelete={handleDelete}
         />
