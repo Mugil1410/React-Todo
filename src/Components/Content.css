@@ -59,10 +59,10 @@ footer {
   place-content: center;
 }
 
-footer > p{
+.dev{
   font-size: 15px;
-  justify-content: center;
-  align-items: center;
+  color: "inherit";
+  text-decoration: "none";
   width: 100%;
 }
 
