@@ -5,7 +5,7 @@ This is a simple Todo App built using React. It allows users to perform CRUD (Cr
 ## Features
 Add new tasks
 Mark tasks as completed
-Edit existing tasks
+Edit existing tasks 
 Delete tasks
 Responsive design using Bootstrap
 
